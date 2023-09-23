@@ -1,0 +1,59 @@
+*  {
+    font-family: 'Roboto', sans-serif;
+}
+.icon-buscador {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+ul {
+    list-style-type: none;
+}
+header { 
+    text-align: end;
+    justify-content: center;
+}
+main {
+    margin: 37px;
+    text-align: center
+}
+.pais {
+    text-align:center;
+}
+button {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color:--bs-danger-bg-subtle;
+    border:none;
+}
+header ul li{
+    display:inline;
+    /*padding: 8px; */
+    /*padding: 8px 24px; */
+    /*padding: 8px 24px 40px 60px; */
+    padding:4px;
+}
+footer ul {
+    display: inline-block;
+    margin: 15px 12px;
+}
+footer ul li{
+    display:inline;
+    /*padding: 8px; */
+    /*padding: 8px 24px; */
+    /*padding: 8px 24px 40px 60px;*/
+    padding: 15px;
+}
+footer {
+    background-color:rgb(255, 255, 255);
+}
+/*
+
+main {
+    height: ;
+}
+align text
+float
+unidades de medida
+*/
