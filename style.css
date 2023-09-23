@@ -1,6 +1,13 @@
 *  {
     font-family: 'Roboto', sans-serif;
-}
+    }
+
+    body{
+    padding: 0px;
+    margin: 0px;
+
+    }
+    
 .icon-buscador {
     display: inline-block;
     width: 24px;
@@ -24,7 +31,7 @@ button {
     text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color:--bs-danger-bg-subtle;
+    background-color:plum;
     border:none;
 }
 header ul li{
@@ -47,6 +54,15 @@ footer ul li{
 }
 footer {
     background-color:rgb(255, 255, 255);
+}
+header {
+    height:20vh;
+}
+main {
+    height:70vh;
+}
+footer {
+    height:20vh;
 }
 /*
 
