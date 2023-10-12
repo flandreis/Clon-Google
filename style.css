@@ -1,7 +1,6 @@
 *  {
     font-family: 'Roboto', sans-serif;
     }
-
     body{
     padding: 0px;
     margin: 0px;
@@ -12,13 +11,19 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+    padding:10px 10px;
 }
 ul {
     list-style-type: none;
 }
-header { 
+header ul li{ 
     text-align: end;
     justify-content: center;
+    display: inline-flex;
+    /* padding: 8px; */
+    /* padding: 8px 24px; */
+    /* padding: 8px 24px 40px 60px; */
+    padding: 4px;
 }
 main {
     margin: 37px;
@@ -31,7 +36,7 @@ button {
     text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color:plum;
+    background-color: aliceblue;
     border:none;
 }
 header ul li{
@@ -53,23 +58,83 @@ footer ul li{
     padding: 15px;
 }
 footer {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(236, 236, 236);
+    height:19.9vh;
+    color: rgb(19, 19, 19);
 }
 header {
-    height:20vh;
+    display:flex;
+    height: 8vh;
+    flex-direction: column;
+    align-items: end;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 15px;
 }
 main {
     height:70vh;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 footer {
     height:20vh;
 }
-/*
-
-main {
-    height: ;
+.btn-buscador{
+    display: flex;
+    border: #f0e2f9 solid 1px;
+    border-radius: 25px;
+    align-self: center;
+    padding: 0px 10px;
 }
-align text
-float
-unidades de medida
-*/
+
+#input-buscador {
+    display: flex;
+    outline: none;
+    border: none;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    padding-block: 1px;
+    padding-inline: 6px;
+    padding: 0px 100px;
+}
+
+hr {
+    border-color: #ffffff;
+    background-color:#848080 ;
+}
+
+article{
+    display: flex;
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
